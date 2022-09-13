@@ -2,8 +2,8 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
+mcmullen_CartRacer1/[Ll]ibrary/
+mcmullen_CartRacer1/[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
