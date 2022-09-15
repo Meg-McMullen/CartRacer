@@ -17,9 +17,14 @@ public class Teleporter1 : MonoBehaviour
         
     }
 
+    //void OnTriggerEnter(Collider other)
+   // {
+        //thePlayer.transform.position = teleportTarget.transform.position;
+    //}
+
     void OnTriggerEnter(Collider Col) {
         if (Col.gameObject.tag == "Player")
             Col.gameObject.transform.position = tpPoint.transform.position;
-        //Col.transform.position = new Vector3 (18,1,30);
+        Col.transform.position = new Vector3 (18f,1f,30f);
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine.Events;
 
 public class ArcadeKartPowerup : MonoBehaviour {
 
+
     public ArcadeKart.StatPowerup boostStats = new ArcadeKart.StatPowerup
     {
         MaxTime = 5
@@ -35,6 +36,8 @@ public class ArcadeKartPowerup : MonoBehaviour {
             }
 
         }
+       
+    
     }
 
 
