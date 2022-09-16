@@ -4,29 +4,30 @@ using UnityEngine;
 
 public class Teleporter2 : MonoBehaviour
 {
-    //ArcadeKart arcadeKart;
-
+  // public GameObject tpPoint;
     // Start is called before the first frame update
-    //void Start()
-    //{
-       // arcadeKart = gameObject.GetComponent<ArcadeKart>();
-    //}
+    void Start()
+    {
+        
+    }
 
     // Update is called once per frame
-    //void Update()
-    //{
-        //if(Input.GetMouseButtonDown(0))
-        //{
-           // StartCoroutine("Teleport");
-        //}
+    void Update()
+    {
+        
+    }
+
+    //void OnTriggerEnter(Collider other)
+   // {
+        //thePlayer.transform.position = teleportTarget.transform.position;
     //}
- 
-    //IEnumerator Teleport()
-    //{
-        //arcadeKart.disabled = true;
-        //yield return new WaitForSeconds(1f);
-        //gameObject.transform.position = new Vector3(18f,1f,30f);
-        //yield return new WaitForSeconds(1f);
-        //arcadeKart.disabled = false;
+
+   // void OnTriggerEnter(Collider Col) {
+        //if (Col.gameObject.tag == "Player"){
+           // Col.gameObject.transform.position = tpPoint.transform.position;
+            //Debug.Log(tpPoint.transform.position);
+            //Debug.Break();
+        //}
+        //Col.transform.position = new Vector3 (18f,1f,30f);
     //}
 }

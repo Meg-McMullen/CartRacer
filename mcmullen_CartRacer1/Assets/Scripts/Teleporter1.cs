@@ -23,8 +23,13 @@ public class Teleporter1 : MonoBehaviour
     //}
 
     void OnTriggerEnter(Collider Col) {
-        if (Col.gameObject.tag == "Player")
+        if (Col.gameObject.tag == "Player"){
             Col.gameObject.transform.position = tpPoint.transform.position;
-        Col.transform.position = new Vector3 (18f,1f,30f);
+            Debug.Log(tpPoint.transform.position);
+            //Debug.Break();
+        }
+        //Col.transform.position = new Vector3 (18f,1f,30f);
     }
 }
+
+//look into translate and or moveposition
